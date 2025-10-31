@@ -1,1 +1,23 @@
+/* Small screen selector */
+@media screen and (max-width: 370px){
+    body{
+        background-color: chocolate;
+    }
+}
 
+
+/* Medium screen selector */
+@media screen and (min-width: 370px) and (max-width: 550px) {
+    body{
+        background-color: crimson;
+    }
+    
+}
+
+
+/* regular screen CSS */
+@media screen and (min-width: 550px) {
+    body{
+        background-color: darksalmon;
+    }
+}
