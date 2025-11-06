@@ -3,9 +3,6 @@
   body {
     background-color: chocolate;
   }
-  
-
-  
 }
 
 /* Medium screen selector */
@@ -13,8 +10,6 @@
   body {
     background-color: crimson;
   }
-
- 
 }
 
 /* regular screen CSS */
@@ -22,37 +17,46 @@
   body {
     background-color: darksalmon;
   }
-
-  
-
 }
 
 /* Global styles */
-body{
+body {
   font-family: Roboto, sans-serif;
+  text-align: center;
 }
 
- header{
-    position:fixed;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    background-color: beige;
-  }
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: beige;
+}
 
-  footer{
-    text-align: center;
-    background-color: whitesmoke;
-    
-  }
+footer {
+  text-align: center;
+  background-color: whitesmoke;
+}
 
-  .info{
-    text-transform: uppercase;
-    text-align: center;
-    background-color: lightgray;
-  }
+.info {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: lightgray;
+}
 
- .sticky, section, article{
-    padding-top: 102px;
-  }
+.sticky,
+section,
+article {
+  padding-top: 102px;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4{
+  display: flex;
+
+  
+}
+
 
