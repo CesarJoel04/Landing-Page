@@ -5,99 +5,292 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Colorado Outdoor Adventures</title>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="stylesheet.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <script src="script.js"></script>
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
   </head>
   <body>
-    <header>
-      <h1>Colorado Outdoor Adventures</h1>
-    </header>
-    <section class="section-1">
-      <!-- Pictures 1 -->
-      <figure class="slideshow_1">
-        <img src="images/image_1.png" alt="Temporary Sample Picture #1" width="700" height="470"/>
-      </figure>
+    <main>
+      <header>
+        <h1>Colorado Outdoor Adventures</h1>
+      </header>
+      <!-- Carousel 1 -->
+      <section class="section-1">
+        <figure class="col">
+          <section
+            id="carouselEstes"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="7000"
+            aria-label="Estes Park scenic photo slideshow"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselEstes"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselEstes"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselEstes"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
 
-      <article>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non
-          rutrum risus, gravida ullamcorper dui. Vestibulum tristique
-          scelerisque sem, commodo molestie tortor auctor et. Sed laoreet porta
-          justo sed vehicula. Pellentesque non efficitur odio. Sed tempor
-          suscipit felis, non auctor enim dictum a. Etiam gravida posuere quam,
-          eget cursus turpis ultrices in. Sed nec dapibus elit, sed dignissim
-          enim. Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Nulla risus turpis, eleifend at facilisis et,
-          luctus eu ex. Sed et porta mauris. Praesent ullamcorper metus nisi, id
-          fermentum velit vestibulum id. Integer pulvinar blandit mollis. Cras
-          nec nunc id dolor tempus tristique.
-        </p>
-      </article>
-    </section>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/estespark1.png" alt="" />
+              </div>
+              <div class="carousel-item">
+                <img src="images/estespark2.png" alt="" />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/estespark3.png"
+                  alt="Sunset over Rocky Mountain peaks"
+                />
+              </div>
+            </div>
 
-    <section class="section-2">
-      <!-- Pictures 2 -->
-      <figure class="slideshow_2">
-        <img src="images/image_2.png" alt="Temporary Sample Picture #2" width="700" height="470"/>
-      </figure>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselEstes"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselEstes"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </section>
+          <figcaption class="text-center mt-2">
+            Estes Park - Gateway to the Rocky Mountains
+          </figcaption>
+        </figure>
 
-      <article>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non
-          rutrum risus, gravida ullamcorper dui. Vestibulum tristique
-          scelerisque sem, commodo molestie tortor auctor et. Sed laoreet porta
-          justo sed vehicula. Pellentesque non efficitur odio. Sed tempor
-          suscipit felis, non auctor enim dictum a. Etiam gravida posuere quam,
-          eget cursus turpis ultrices in. Sed nec dapibus elit, sed dignissim
-          enim. Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Nulla risus turpis, eleifend at facilisis et,
-          luctus eu ex. Sed et porta mauris. Praesent ullamcorper metus nisi, id
-          fermentum velit vestibulum id. Integer pulvinar blandit mollis. Cras
-          nec nunc id dolor tempus tristique.
-        </p>
-      </article>
-    </section>
+        <article class="col">
+          <h2>Estes Park</h2>
+          <p>
+            Nestled at the eastern gateway of Rocky Mountain National Park,
+            Estes Park is a mountain town celebrated for its breathtaking alpine
+            scenery, abundant wildlife, and year-round adventure. Visitors can
+            travel the Trail Ridge Road, the highest continuous paved highway in
+            North America, to enjoy panoramic views of snowcapped peaks and
+            valleys teeming with elk and bighorn sheep. Downtown Estes Park
+            offers a charming mix of local shops, art galleries, and riverside
+            dining, while the historic Stanley Hotel, built in 1909 and famously
+            inspiring Stephen King's The Shining, adds a touch of mystery and
+            grandeur. Outdoor enthusiasts can hike, kayak on Lake Estes, or go
+            fly-fishing along the Big Thompson River, while the annual Elk Fest
+            celebrates the town's connection to nature. With its blend of
+            natural beauty, small-town charm, and access to some of Colorado's
+            most stunning landscapes, Estes Park stands as a quintessential
+            mountain getaway.
+          </p>
+        </article>
+      </section>
 
-    <section class="section-3">
-      <iframe
-        width= "800"
-        height="550"
-        src="https://www.youtube.com/embed/D2QQ0NH7Nfc?si=fad5SnIpPQ94nQNC"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+      <!-- Carousel 2 -->
+      <section class="section-2">
+        <figure class="col">
+          <section
+            id="carouselSprings"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="10000"
+            aria-label="Colorado Springs scenic photo slideshow"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselSprings"
+                data-bs-slide-to="0"
+                class="active"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselSprings"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselSprings"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
 
-    <article>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non
-        rutrum risus, gravida ullamcorper dui. Vestibulum tristique scelerisque
-        sem, commodo molestie tortor auctor et. Sed laoreet porta justo sed
-        vehicula. Pellentesque non efficitur odio. Sed tempor suscipit felis,
-        non auctor enim dictum a. Etiam gravida posuere quam, eget cursus turpis
-        ultrices in. Sed nec dapibus elit, sed dignissim enim. Orci varius
-        natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-        mus. Nulla risus turpis, eleifend at facilisis et, luctus eu ex. Sed et
-        porta mauris. Praesent ullamcorper metus nisi, id fermentum velit
-        vestibulum id. Integer pulvinar blandit mollis. Cras nec nunc id dolor
-        tempus tristique.
-      </p>
-    </article>
-    </section>
-    <section class="info">
-      <p>
-        For additional information, visit <br>🔗
-        <a href="https://www.colorado.com/" target="_blank">Colorado Official Website</a>
-      </p>
-    </section>
-    <footer>
-      <h4>
-        &copy;<time> 2025</time> Cesar Estevez-Peralta. All rights reserved.
-      </h4>
-    </footer>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/coloradospring2.png"
+                  alt="Garden of the Gods red rock formations"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/coloradospring1.png"
+                  alt="View from Pikes Peak summit"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/coloradospring3.png"
+                  alt="Skyview of Colorado Springs during Falls"
+                />
+              </div>
+            </div>
+
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselSprings"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselSprings"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+            </button>
+          </section>
+          <figcaption class="text-center mt-2">
+            Colorado Springs - Home to Pikes Peak and Garden of the Gods
+          </figcaption>
+        </figure>
+
+        <article class="col">
+          <h2>Colorado Springs</h2>
+          <p>
+            Situated at the base of Pikes Peak, one of Colorado's most iconic
+            fourteeners, Colorado Springs offers a remarkable blend of natural
+            beauty, history, and adventure. The city's crown jewel, Garden of
+            the Gods, features towering red rock formations ideal for hiking,
+            photography, and rock climbing. Visitors can ascend Pikes Peak via
+            the Cog Railway or scenic Pikes Peak Highway, both offering
+            awe-inspiring views that inspired the song America the Beautiful.
+            The city also boasts attractions like the Broadmoor Seven Falls,
+            Cave of the Winds Mountain Park, and the U.S. Air Force Academy,
+            known for its striking Cadet Chapel. Historic Old Colorado City
+            preserves the charm of the Gold Rush era with galleries, boutiques,
+            and restaurants, while annual events like the Pikes Peak
+            International Hill Climb and Colorado Balloon Classic reflect the
+            city's adventurous spirit. With its perfect mix of outdoor
+            recreation, cultural landmarks, and historic character, Colorado
+            Springs remains one of the state's most dynamic destinations.
+          </p>
+        </article>
+      </section>
+
+      <section class="section-3">
+        <aside class="col">
+          <iframe
+            width="100%;"
+            height="500px;"
+            src="https://www.youtube.com/embed/D2QQ0NH7Nfc?si=fad5SnIpPQ94nQNC&rel=0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </aside>
+        <article class="col">
+          <h2>Other Notable Places in Colorado</h2>
+          <p>
+            Beyond its famous mountain towns, Colorado offers an extraordinary
+            variety of destinations that showcase its diverse geography and
+            culture. In southern Colorado, Great Sand Dunes National Park and
+            Preserve features North America's tallest dunes, rising up to 750
+            feet against the stunning backdrop of the Sangre de Cristo
+            Mountains. To the west, Grand Junction and the Grand Mesa—the
+            world's largest flat-top mountain—offer breathtaking red rock
+            canyons, alpine lakes, and scenic trails. Durango charms visitors
+            with its historic Durango & Silverton Narrow Gauge Railroad, while
+            Crested Butte, known as the “Wildflower Capital of Colorado,”
+            transforms into a vibrant paradise of color each summer and a
+            premier ski destination in winter. Aspen combines world-class skiing
+            with cultural sophistication, home to music and film festivals and
+            the stunning Maroon Bells peaks. Meanwhile, Fort Collins delights
+            with its craft beer culture and lively downtown, and Pueblo
+            highlights Colorado's Hispanic heritage along its scenic Riverwalk.
+            Together, these destinations reveal Colorado's incredible range—from
+            desert dunes and alpine forests to thriving cities steeped in
+            history and creativity.
+          </p>
+        </article>
+      </section>
+      <aside id="info">
+        <p>For additional informations, visit the following sites:</p>
+        <ul style="list-style-type: none">
+          <li>
+            <a href="https://www.colorado.com/" target="_blank"
+              >State of Colorado Official Website</a
+            >
+          </li>
+          <li>
+            <a href="https://www.visitestespark.com/" target="_blank"
+              >Estes Park Official Website</a
+            >
+          </li>
+          <li>
+            <a href="https://www.visitcos.com/" target="_blank"
+              >Colorado Springs Official Website</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <footer>
+        <h6>
+          &copy;<time> 2025</time> Cesar Estevez-Peralta. All rights reserved.
+        </h6>
+      </footer>
+      <script
+        defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      ></script>
+    </main>
   </body>
 </html>
